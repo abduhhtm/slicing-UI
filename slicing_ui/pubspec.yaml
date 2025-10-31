@@ -76,6 +76,7 @@ flutter:
     - assets/vegetables.png
     - assets/wallet.png
     - assets/Group 12.png
+    - images/splash/moon.json
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

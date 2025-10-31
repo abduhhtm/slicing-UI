@@ -10,8 +10,11 @@ class Bannerinfo extends StatelessWidget {
       padding: const EdgeInsets.all(10),
       child: Container(
         decoration: BoxDecoration(
-          // color: Colors.red,
-          image: DecorationImage(image: AssetImage(banner), fit: BoxFit.cover),
+          borderRadius: BorderRadius.circular(10), 
+          image: DecorationImage(
+            image: AssetImage(banner),
+            fit: BoxFit.cover,
+          ),
         ),
       ),
     );
