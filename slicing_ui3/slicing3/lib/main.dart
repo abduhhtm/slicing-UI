@@ -1,0 +1,26 @@
+import 'package:flutter/material.dart';
+import 'package:slicing3/halaman/homepage.dart';
+import 'package:animated_splash_screen/animated_splash_screen.dart';
+
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: AnimatedSplashScreen(
+        splash: Icons.airplanemode_active,
+        nextScreen: Homepage(),
+        splashTransition: SplashTransition.rotationTransition,
+        backgroundColor: Colors.white,
+      ),
+      
+    );
+  }
+}
+
