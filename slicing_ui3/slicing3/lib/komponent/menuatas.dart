@@ -19,7 +19,7 @@ class Menuatas extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                "Selmat Pagi",
+                "Selmat Pagi",  
                 style: TextStyle(fontWeight: FontWeight.bold),
               ),
               Text(
